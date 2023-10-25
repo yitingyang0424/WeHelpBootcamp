@@ -1,0 +1,43 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat:repeat;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*垂直對齊*/
+    background-color: #FF8888;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+    font-family:微軟正黑體;
+    font-weight: bold;
+}
+
+.container{
+    width:700px;
+    border:1px solid #999;
+    margin:20px auto;
+    padding:20px;
+    background: rgba(255,255,255,0.5);
+    font-family:微軟正黑體;
+}
+
+.banner{
+    border:1px solid #999;
+    padding:20px;
+    background-color:#cceeff;
+    margin:20PX ;
+}
+
+
+.text{
+    color:#003377;
+}
+
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*垂直對齊*/
+}
